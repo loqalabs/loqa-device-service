@@ -1,0 +1,25 @@
+# Loqa Device Service - Code Owners
+
+# Global ownership
+* @annabarnes1138
+
+# Core service logic
+/cmd/ @annabarnes1138
+/internal/ @annabarnes1138
+
+# NATS messaging integration
+/internal/messaging/ @annabarnes1138
+
+# Docker and deployment
+Dockerfile* @annabarnes1138
+docker-compose.yml @annabarnes1138
+
+# CI/CD
+/.github/ @annabarnes1138
+
+# Dependencies
+go.mod @annabarnes1138
+go.sum @annabarnes1138
+
+# Documentation
+*.md @annabarnes1138
