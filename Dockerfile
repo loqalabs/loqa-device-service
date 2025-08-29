@@ -1,10 +1,10 @@
 FROM golang:1.21-alpine AS builder
 
 WORKDIR /app
-COPY go.mod go.sum ./
+COPY loqa-device-service/go.mod loqa-device-service/go.sum ./
 RUN go mod download
 
-COPY . .
+COPY loqa-device-service/ .
 RUN go build -o device-service ./cmd
 
 FROM alpine:latest
