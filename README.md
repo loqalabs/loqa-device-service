@@ -26,7 +26,7 @@ Loqa Device Service is responsible for:
 
 ## Getting Started
 
-See the main [Loqa documentation](https://github.com/loqalabs/loqa-docs) for setup and usage instructions.
+See the main [Loqa documentation](https://github.com/loqalabs/loqa) for setup and usage instructions.
 
 ## License
 
