@@ -1,5 +1,7 @@
 # 🏠 Loqa Device Service
 
+[![CI/CD Pipeline](https://github.com/loqalabs/loqa-device-service/actions/workflows/ci.yml/badge.svg)](https://github.com/loqalabs/loqa-device-service/actions/workflows/ci.yml)
+
 Device control service that listens on NATS for device commands and executes actions.
 
 ## Overview
